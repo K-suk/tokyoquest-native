@@ -41,3 +41,23 @@ app-example
 # generated native folders
 /ios
 /android
+
+.env
+
+# Firebase configuration files (contain sensitive information)
+GoogleService-Info.plist
+google-services.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+logs/
+
+# OS
+Thumbs.db
